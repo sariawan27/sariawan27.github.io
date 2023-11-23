@@ -3658,6 +3658,53 @@ hr {
     display: none;
   }
 }
+
+.map-area iframe {
+  height: 458px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .map-area iframe {
+    width: 500px;
+    height: 501px;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1500px) {
+  .map-area iframe {
+    width: 600px;
+    height: 501px;
+  }
+}
+@media only screen and (min-width: 1501px) and (max-width: 1750px) {
+  .map-area iframe {
+    width: 700px;
+    height: 501px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .map-area iframe {
+    width: 350px;
+    height: 501px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .map-area {
+    bottom: 47px;
+  }
+  .map-area iframe {
+    width: 252px;
+    height: 501px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .map-area iframe {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .map-area iframe {
+    display: none;
+  }
+}
 .page-notification {
   background: #eff5f8;
   padding: 13px 0;
